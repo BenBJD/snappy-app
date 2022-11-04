@@ -1,20 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { createContext, useState } from "react"
+import { NavigationContainer } from "@react-navigation/native"
+import { createNativeStackNavigator } from "@react-navigation/native-stack"
+import { UserContext, user } from "./Context.js"
+import { CameraScreen } from "./screens/Camera.js"
+import { ChatScreen } from "./screens/Chat.js"
+import { LoginScreen } from "./screens/Login.js"
+import { MainScreen } from "./screens/Main.js"
+import { SettingsScreen } from "./screens/Settings.js"
 
-export default function App() {
+const Stack = createNativeStackNavigator()
+
+const App = () => {
+  if (user.token === "") {
+    return <LoginScreen />
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <UserContext.Provider value={user}>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Main" component={MainScreen} />
+          <Stack.Screen name="Camera" component={CameraScreen} />
+          <Stack.Screen name="Login" component={LoginScreen} />
+          <Stack.Screen name="Settings" component={SettingsScreen} />
+          <Stack.Screen name="Chat" component={ChatScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </UserContext.Provider>
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App

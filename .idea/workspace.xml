@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e1bd061-03ff-4398-8364-31ed6f905b9f" name="Changes" comment="" />
+    <list default="true" id="9e1bd061-03ff-4398-8364-31ed6f905b9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/friend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/snap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Goku5h6R1hXhdPCqlvo6fxZfJP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,13 +60,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ben/sync/repos/snappy-app",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/ben/sync/repos/snappy-app/App.js",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Ben\\sync\\repos\\snappy-app\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "C:\\Users\\Ben\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -35,9 +78,19 @@
     <option name="myId2Visible">
       <map>
         <entry key="com.haulmont.rcb.reactComponents" value="true" />
-        <entry key="com.haulmont.rcb.reactInspector" value="true" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <arguments value="--clear" />
+      <node-interpreter value="wsl://Ubuntu@/home/ben/.nvm/versions/node/v19.0.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +100,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667062543282</updated>
-      <workItem from="1667062544486" duration="521000" />
+      <workItem from="1667062544486" duration="8221000" />
+      <workItem from="1667135074805" duration="9298000" />
+      <workItem from="1667173154961" duration="941000" />
+      <workItem from="1667339963088" duration="8432000" />
+      <workItem from="1667419138541" duration="724000" />
+      <workItem from="1667572226391" duration="7655000" />
     </task>
     <servers />
   </component>
