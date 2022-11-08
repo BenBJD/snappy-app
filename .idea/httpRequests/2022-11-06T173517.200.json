@@ -1,0 +1,50 @@
+[
+  {
+    "confirmed": true,
+    "username": "testy",
+    "snappy_score": 0,
+    "friend_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d"
+  },
+  {
+    "confirmed": true,
+    "username": "yourmum",
+    "snappy_score": 0,
+    "friend_id": "3688614f-cba7-451d-ae85-e96174fdb84e"
+  },
+  {
+    "confirmed": true,
+    "username": "user3",
+    "snappy_score": 0,
+    "friend_id": "610ba81a-7405-482a-bcae-1e847d6b6758"
+  },
+  {
+    "confirmed": true,
+    "username": "user2",
+    "snappy_score": 0,
+    "friend_id": "3da4a2e3-8a2d-49b1-a7f5-de5c43f41860"
+  },
+  {
+    "confirmed": true,
+    "username": "user5",
+    "snappy_score": 0,
+    "friend_id": "b7e42587-a2dd-486d-9767-8687b44b9696"
+  },
+  {
+    "confirmed": true,
+    "username": "user6",
+    "snappy_score": 0,
+    "friend_id": "18947a33-4b55-40bd-9862-0adddb6628e7"
+  },
+  {
+    "confirmed": true,
+    "username": "user1",
+    "snappy_score": 0,
+    "friend_id": "d7073291-fca3-4c7e-9319-5cecfe48b0b0"
+  },
+  {
+    "confirmed": true,
+    "username": "user4",
+    "snappy_score": 0,
+    "friend_id": "ca20e193-4647-485c-af09-dba999997d7b"
+  }
+]

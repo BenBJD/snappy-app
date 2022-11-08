@@ -1,0 +1,80 @@
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-07T202839.200.json
+
+###
+
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173634.200.json
+
+###
+
+GET http://localhost:8000/api/friend
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173628.200.json
+
+###
+
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173618.200.json
+
+###
+
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173528.200.json
+
+###
+
+GET http://localhost:8000/api/friend
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173517.200.json
+
+###
+
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173207.200.json
+
+###
+
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T173001.200.json
+
+###
+
+GET http://localhost:8000/api/snap
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T172857.200.json
+
+###
+
+GET http://localhost:8000/api/snaps
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0
+
+<> 2022-11-06T172849.404.json
+
+###
+

@@ -1,32 +1,43 @@
 import React, { createContext, useState } from "react"
+import { Text } from "react-native"
 import { NavigationContainer } from "@react-navigation/native"
-import { createNativeStackNavigator } from "@react-navigation/native-stack"
-import { UserContext, user } from "./Context.js"
-import { CameraScreen } from "./screens/Camera.js"
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
+import { NativeBaseProvider } from "native-base"
+
+import { UserContext } from "./Context.js"
 import { ChatScreen } from "./screens/Chat.js"
 import { LoginScreen } from "./screens/Login.js"
-import { MainScreen } from "./screens/Main.js"
+import { MainScreen } from "./screens/Snappy.js"
 import { SettingsScreen } from "./screens/Settings.js"
+import { CameraScreen } from "./screens/Camera.js"
 
-const Stack = createNativeStackNavigator()
+const Tabs = createBottomTabNavigator()
 
 const App = () => {
+  const [user, setUser] = useState({
+    id: "24d668a7-5953-48cd-a812-18fc57405369",
+    username: "ben_davison02",
+    token:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2Njg3MDgwNTB9.QE9D5RMVjQzoBApiZvNOO9OHX-SZJ3vtduCZwAdguq4"
+  })
+
   if (user.token === "") {
-    return <LoginScreen />
+    return <Text>No Token detected</Text>
   }
 
   return (
-    <UserContext.Provider value={user}>
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen name="Main" component={MainScreen} />
-          <Stack.Screen name="Camera" component={CameraScreen} />
-          <Stack.Screen name="Login" component={LoginScreen} />
-          <Stack.Screen name="Settings" component={SettingsScreen} />
-          <Stack.Screen name="Chat" component={ChatScreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
-    </UserContext.Provider>
+    <NativeBaseProvider>
+      <UserContext.Provider value={user}>
+        <NavigationContainer>
+          <Tabs.Navigator>
+            <Tabs.Screen name="Main" component={MainScreen} />
+            <Tabs.Screen name="Camera" component={CameraScreen} options={{ unmountOnBlur: true }} />
+            <Tabs.Screen name="Chat" component={ChatScreen} />
+            <Tabs.Screen name="Settings" component={SettingsScreen} />
+          </Tabs.Navigator>
+        </NavigationContainer>
+      </UserContext.Provider>
+    </NativeBaseProvider>
   )
 }
 

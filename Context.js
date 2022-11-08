@@ -18,10 +18,3 @@ export const setToken = async (token) => {
     console.log("Error reading from storage")
   }
 }
-
-export const [user, setUser] = useState({
-  id: "24d668a7-5953-48cd-a812-18fc57405369",
-  username: "ben_davison02",
-  token:
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGQ2NjhhNy01OTUzLTQ4Y2QtYTgxMi0xOGZjNTc0MDUzNjkiLCJleHAiOjE2NjgyMDk5NTF9.zohCtGozceZyCHcHEmU7wdlugYein26CWDRVaaux4O0",
-})

@@ -5,26 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1bd061-03ff-4398-8364-31ed6f905b9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/friend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/snap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Camera.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/Settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/Snappy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Context.js" beforeDir="false" afterPath="$PROJECT_DIR$/Context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/friend.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/friend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/snap.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/snap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Camera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -55,42 +56,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/ben/sync/repos/snappy-app/App.js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Ben\\sync\\repos\\snappy-app\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "C:\\Users\\Ben\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.11.9&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bendavison/sync/sync/repos/snappy-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Ben\\sync\\repos\\snappy-app\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/bendavison/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4167.31/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.rcb.reactComponents" value="true" />
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
         <entry key="com.haulmont.rcb.reactInspector" value="false" />
       </map>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
-      <arguments value="--clear" />
-      <node-interpreter value="wsl://Ubuntu@/home/ben/.nvm/versions/node/v19.0.0/bin/node" />
+      <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.rest-api | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,6 +116,9 @@
       <workItem from="1667339963088" duration="8432000" />
       <workItem from="1667419138541" duration="724000" />
       <workItem from="1667572226391" duration="7655000" />
+      <workItem from="1667655566618" duration="5873000" />
+      <workItem from="1667665650399" duration="24376000" />
+      <workItem from="1667829768199" duration="21562000" />
     </task>
     <servers />
   </component>

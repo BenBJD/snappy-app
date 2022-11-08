@@ -1,0 +1,54 @@
+{
+  "sent": [
+    {
+      "id": "07a8803a-579a-11ed-ae6e-00155d0aa0e3",
+      "from_user_id": "24d668a7-5953-48cd-a812-18fc57405369",
+      "to_user_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d",
+      "date": "2022-10-29",
+      "time": "15:57:38",
+      "seen": false
+    },
+    {
+      "id": "240c6c96-579a-11ed-ac9c-00155d0aa0e3",
+      "from_user_id": "24d668a7-5953-48cd-a812-18fc57405369",
+      "to_user_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d",
+      "date": "2022-10-29",
+      "time": "15:58:26",
+      "seen": true
+    },
+    {
+      "id": "ffd9d67c-5ec6-11ed-8d22-acde48001122",
+      "from_user_id": "24d668a7-5953-48cd-a812-18fc57405369",
+      "to_user_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d",
+      "date": "2022-11-07",
+      "time": "18:07:11",
+      "seen": false
+    },
+    {
+      "id": "4a0726e6-5ec7-11ed-9314-acde48001122",
+      "from_user_id": "24d668a7-5953-48cd-a812-18fc57405369",
+      "to_user_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d",
+      "date": "2022-11-07",
+      "time": "18:09:15",
+      "seen": false
+    },
+    {
+      "id": "4fbd2840-5ec9-11ed-9314-acde48001122",
+      "from_user_id": "24d668a7-5953-48cd-a812-18fc57405369",
+      "to_user_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d",
+      "date": "2022-11-07",
+      "time": "18:23:44",
+      "seen": false
+    }
+  ],
+  "received": [
+    {
+      "id": "6bbc8a3c-57a2-11ed-9b6a-0242ac120002",
+      "from_user_id": "5449348f-8b5a-4b9a-a2e1-1ee55ec5b17d",
+      "to_user_id": "24d668a7-5953-48cd-a812-18fc57405369",
+      "date": "2022-10-29",
+      "time": "15:57:48",
+      "seen": true
+    }
+  ]
+}

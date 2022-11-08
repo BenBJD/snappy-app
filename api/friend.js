@@ -5,9 +5,9 @@ export const loadFriends = async (token) => {
     const response = await axios({
       url: process.env.API_URL + "/friend/",
       method: "get",
-      headers: { Authorization: "Bearer " + token },
+      headers: { Authorization: "Bearer " + token }
     })
-    return await response.data()
+    return await response.data
   } catch (err) {
     console.log(err)
   }
@@ -19,9 +19,9 @@ export const addFriend = async (friendId, token) => {
       url: process.env.API_URL + "/friend/",
       method: "put",
       params: { friend_id: friendId },
-      headers: { Authorization: "Bearer " + token },
+      headers: { Authorization: "Bearer " + token }
     })
-    return await response.data()
+    return await response.data
   } catch (err) {
     console.log(err)
   }
@@ -33,9 +33,9 @@ export const removeFriend = async (friendId, token) => {
       url: process.env.API_URL + "/friend/",
       method: "delete",
       params: { friend_id: friendId },
-      headers: { Authorization: "Bearer " + token },
+      headers: { Authorization: "Bearer " + token }
     })
-    return await response.data()
+    return await response.data
   } catch (err) {
     console.log(err)
   }
@@ -47,9 +47,9 @@ export const confirmFriend = async (friendId, token) => {
       url: process.env.API_URL + "/friend/",
       method: "post",
       params: { friend_id: friendId },
-      headers: { Authorization: "Bearer " + token },
+      headers: { Authorization: "Bearer " + token }
     })
-    return await response.data()
+    return await response.datas
   } catch (err) {
     console.log(err)
   }
